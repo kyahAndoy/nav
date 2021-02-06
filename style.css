@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+padding:0;
+marging:0;
+box-sizing:border-box;
+}
+
+body{
+background-color:#EEEEEE;
+font-family: 'Poppins', sans-serif;
+}
+
+.container{
+width:90%;
+margin:auto;
+overflow:hidden;
+}
+
+header{
+background-color:#0077B5;
+border-bottom:#0099BC 3px solid;
+padding-top:20px;
+color:white;
+min-height:60px;
+}
+
+header a{
+color:white;
+text-decoration:none;
+text-transform:uppercase;
+font-size:.8rem;
+}
+
+header #logo{
+float:left;
+}
+
+header #logo h1{
+margin:0;
+font-family:'Losbter', cursive;
+padding-bottom:15px;
+}
+
+nav{
+float:right;
+}
+
+nav ul{
+margin:0;
+padding-top:10px;
+}
+
+nav li{
+float:left;
+display:inline;
+padding:2px 8px 2px 8px;
+}
+
+li.butt{
+border:#0099BC 1px solid;
+border-radius:50px;
+background-color:#0099BC;
+}
